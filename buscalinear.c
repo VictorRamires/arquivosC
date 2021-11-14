@@ -3,18 +3,18 @@
 int main(){
 
 	int v[5];
-	//int k , l; //k maior, l menor
-	//int aux1 = 0, aux2 = 0;
+	int k , l; //k maior, l menor
+	int aux1 = 0, aux2 = 0;
 
 
 	for(int i = 0; i < 5; i++){
 		scanf("%d", &v[i]);
 	}
 
-	//printf("%d %d\n", k, l);
-	//printf("%d %d\n", maior, menor);
+	printf("%d %d\n", k, l);
+	printf("%d %d\n", maior, menor);
 
-	/*for(int i = 0, j = 4; i != j; i++, j--){
+	for(int i = 0, j = 4; i != j; i++, j--){
 		aux1 = v[i];
 		v[i] = v[l];
 		v[l] = aux1;
@@ -26,7 +26,7 @@ int main(){
 
 	for(int i = 0; i < 5; i++){
 		printf("%d", v[i]);
-	}*/
+	}
 	menor(v);
 }
 
