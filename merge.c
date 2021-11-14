@@ -57,14 +57,14 @@ void imprime(lcc *lista){
 }	
 
 void remover(lcc *lista, int chave){
-    printf("passei por aq");
-    /*no *p, *aux;
+    
+    	no *p, *aux;
 
-    p = lista -> cabeca;
-    aux = lista -> cabeca -> prox;
-    for(; aux != NULL && aux -> chave != chave; p = aux, aux = aux -> prox){
+    	p = lista -> cabeca;
+    	aux = lista -> cabeca -> prox;
+    	for(; aux != NULL && aux -> chave != chave; p = aux, aux = aux -> prox){
         printf("aux no campo chave = %d", aux -> chave);
-    }*/
+    	}
 }
 
 int main(){
@@ -73,9 +73,9 @@ int main(){
 	lista = cria_lista();
 	insere_ordenado(lista, 15);
 	insere_ordenado(lista, 10);
-    insere_ordenado(lista, 12);
-    insere_ordenado(lista, 11);
-    remover(lista, 11);
+   	insere_ordenado(lista, 12);
+    	insere_ordenado(lista, 11);
+    	remover(lista, 11);
 	imprime(lista);
     
 }
