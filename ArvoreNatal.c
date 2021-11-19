@@ -1,4 +1,5 @@
 //exercicio 3040 uri
+//https://www.beecrowd.com.br/judge/pt/problems/view/3040
 #include<stdio.h>
 
 int main(){
