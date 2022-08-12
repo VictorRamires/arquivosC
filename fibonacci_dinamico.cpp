@@ -9,12 +9,12 @@ int memo[50];
 int fib(int n){
 //fibonacci normalmente
 	if(n <= 2)	return 1; 
-
+	
+//cria variavel passada por referencia para que possa alterar o valor no vetor.
 	int &valor = memo[n];
-	cout << "memo[n] = " << memo[n] << endl;
 //verifica se já há algum valor armazenado no vetor
 	if(valor != -1) return valor;
-
+//retorna valor com resultado,colocando assim no vetor 
 	return valor = fib(n - 1) + fib(n - 2);
 
 }
