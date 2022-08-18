@@ -1,4 +1,4 @@
-//algoritmo de euclides
+//algoritmo de euclides para obter o maior divisor comum entre dois numeros 
 
 #include <iostream>
 
