@@ -9,7 +9,8 @@ int mdc(int a, int b){
 
 int main()
 {
-    cout << mdc(17,12);
+    int a,b; cin >> a,b;
+    cout << mdc(a,b);
 
     return 0;
 }
